@@ -230,32 +230,61 @@ footer {
     width: 100%;
   }
 
+  .nav-list {
+    width: 100%; /* miss */
+  }
   nav-list-item {
     width: 100%;
+    margin: 0 0 10px; /* miss */
   }
 
+  .cocial {
+    display: none; /* miss */
+  }
   main {
     width: 100%;
+    display: block; /* mmiss*/
   }
 
   .bolg {
     width: 100%;
+    margin: 0; /* miss */
   }
 
-  .category {
-    display: block;
+  .blog-box {
+    padding-left: 2%; /* miss*/
+    padding-right: 2%; /* miss */
   }
 
-  .pagination p {
-    display: block;
+   .blog-image {
+    width: 49%; /* miss */
   }
 
-  sidebar {
-    width: 100%;
-}
+  .blog-text {
+    width: 49%; /* miss */
+    padding-top: 5px; /* miss */
+  }
+
+  .sidebar {
+    width: 100%; /* miss*/
+  }
+
+  .sidebar-contents {
+    padding-left: 3%; /* miss */
+    padding-right: 3%; /* miss */
+  }
 
 .instagram-box {
   width: 100%;
+  padding-right: 48%; /* miss */
 }
 
+.instagram-box:nth-child(odd) { /* miss */
+  margin-right: 4%;
+}
 
+.pagination {
+  margin-bottom: 50px;
+}
+
+}
