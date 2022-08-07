@@ -27,10 +27,13 @@ main {
 
 .blog {
   width: 90%;
+  display: flex; 
 }
 
 
 .blog-box {
+  display: flex;
+  flex-warp: wrap;
   padding-top: 50px;
 }
 
@@ -79,6 +82,7 @@ main {
 .blog-item {
   padding-bottom: 10px;
   margin-bottom: 20px;
+  display: inline-block;
   justify-content: flex-start;
   background-color: #dfd8d8;
 }
@@ -112,18 +116,21 @@ footer {
   background-color: #848282;
 }
 
-@media screen and (max-width: 768px) {
 
-   main {
-     width: 100%;
-     display: block;
+  @media screen and (max-width: 769px) {
+    .blog-item {
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 768px) {
+   .blog-item {
+     widh: 100%;
    }
-
-  .blog {
-    width: 100%;
+     /*
+  .blog-box {
     display: block;
   }
-
+  
   .blog-image {
     width: 50%;
   }
@@ -131,6 +138,8 @@ footer {
   .blog-text {
     width: 50%;
     padding-top: 5px;
-  }
-
+  } */
+   
+  
+  
 }
