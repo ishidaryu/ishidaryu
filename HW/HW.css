@@ -34,7 +34,6 @@ main {
 .blog-box {
   display: flex;
   flex-warp: wrap;
-  padding-top: 50px;
 }
 
 .blog-box1 {
@@ -82,7 +81,12 @@ main {
 .blog-item {
   padding-bottom: 10px;
   margin-bottom: 20px;
+  justify-content: flex-start;
+  background-color: #dfd8d8;
+}
 
+.blog-item1 {
+  padding-bottom: 10px;
   justify-content: flex-start;
   background-color: #dfd8d8;
 }
